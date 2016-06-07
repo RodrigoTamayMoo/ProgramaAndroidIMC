@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Índice de Masa Corporal</string>
+    <string name="app_name_apk"> IMC </string>
+
+
+    <string name="text_view_peso">Ingrese su peso en Kilogramos</string>
+    <string name="text_view_estatura">Ingrese su estatura en Metros</string>
+    <string name="text_view_imc">IMC Calculado:</string>
+    <string name="text_view_calculo"> </string>
+    <string name="text_view_estado">Estado Nutricional</string>
+    <string name="text_view_estado_imc"> </string>
+
+    <string name="edit_text_peso"> </string>
+    <string name="edit_text_estatura"> </string>
+
+    <string name="button_calcular">Calcular</string>
+    <string name="button_limpiar">Limpiar</string>
+    <string name="button_tabla">Tabla</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+</resources>

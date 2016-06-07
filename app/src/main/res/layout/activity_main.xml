@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/android_fond_new"
+    tools:context="com.rodrigotamaymoo.imcapp.MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_peso"
+        android:textSize="20sp"
+        android:background="#00ffffff"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        tools:targetApi="lollipop" />
+
+    <EditText
+        android:id="@+id/edit_text_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_text_peso"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_estatura"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_estatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_text_estatura"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginBottom="0dp">
+
+        <Button
+            android:id="@+id/button_calcular"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:text="@string/button_calcular"
+            android:textSize="20sp"
+            android:onClick="Click_ButtonImc"
+            android:textColor="@android:color/white"
+            android:background="@drawable/android_calcular" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="37dp"
+            android:src="@drawable/android_button_nulo"
+            />
+        <Button
+            android:id="@+id/button_limpiar"
+            android:layout_width="97dp"
+            android:layout_height="37dp"
+            android:text="@string/button_limpiar"
+            android:textSize="20sp"
+            android:onClick="Click_ButtonLimpiar"
+            android:textColor="@android:color/white"
+            android:background="@drawable/android_limpiar"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/text_view_imc"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/text_view_imc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="0.0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/background_material_dark"
+        android:layout_marginBottom="7dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/text_view_estado"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/image_view_estado"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/text_view_estado_imc"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/background_material_dark"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    >
+
+    <Button
+        android:id="@+id/button_tabla_imc"
+        android:layout_width="97dp"
+        android:layout_height="37dp"
+        android:text="@string/button_tabla"
+        android:textSize="20sp"
+        android:onClick="Click_ButtonTabla"
+        android:textColor="@android:color/white"
+        android:background="@drawable/android_tabla"
+        />
+
+</LinearLayout>
+
+</LinearLayout>
